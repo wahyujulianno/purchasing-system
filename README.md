@@ -59,3 +59,24 @@ CREATE DATABASE purchasing_db;
 -- Gunakan database
 USE purchasing_db;
 ```
+
+### **Step 2: Jalankan Backend**
+
+```sql
+# Buka Terminal/CMD di folder backend
+cd backend
+
+# Install dependencies Go
+go mod tidy
+
+# Sesuaikan konfigurasi database di file .env
+# Untuk XAMPP, biarkan password kosong:
+# DB_PASSWORD=
+
+# Jalankan server
+go run main.go
+
+# Jika berhasil, muncul:
+# MySQL database connected successfully
+# Fiber server running on port 8080
+```
