@@ -98,14 +98,36 @@ npx http-server -p 3000
 #    Buka folder frontend di VS Code, klik kanan index.html -> "Open with Live Server"
 ```
 
-## **Akses Aplikasi**
+## **Cara Menggunakan Aplikasi**
 
-1. **Buka Browser**
+1. **Login ke Sistem**
 
-2. **Kunjungi: http://localhost:3000**
+   - Buka http://localhost:3000
+   - Masukkan username admin dan password admin123
+   - Klik tombol Login
 
-3. **Login dengan:**
-   - Username: admin
-   - Password: admin123
+2. **Tambah Data Barang**
 
-4. **Selamat Menggunakan!**
+   - Klik menu "Items" di navbar
+   - Klik tombol "Add New Item"
+   - Isi form: Nama Barang, Stok Awal, Harga
+   - Klik "Save Item"
+
+3. **Tambah Data Supplier**
+
+   - Klik menu "Suppliers" di navbar
+   - Klik tombol "Add New Supplier"
+   - Isi form: Nama Supplier, Email, Alamat
+   - Klik "Save Supplier"
+
+4. **Buat Purchase Order**
+   - Klik menu "Create Purchase"
+   - Pilih supplier dari dropdown
+   - Pilih barang dan masukkan jumlah
+   - Klik "Add to Cart" untuk tambah ke keranjang
+   - Klik "Submit Purchase Order" untuk simpan
+
+5. **Monitoring Dashboard**
+   - Lihat statistik di dashboard utama
+   - Cek "Low Stock Items" untuk barang hampir habis
+   - Lihat "Recent Purchases" untuk aktivitas terbaru
