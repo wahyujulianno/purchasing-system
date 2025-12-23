@@ -80,3 +80,32 @@ go run main.go
 # MySQL database connected successfully
 # Fiber server running on port 8080
 ```
+
+### **Step 3: Jalankan Frontend**
+
+```sql
+# Buka Terminal/CMD baru di folder frontend
+cd frontend
+
+# Pilih salah satu cara:
+# 1. Dengan Python (paling mudah)
+python -m http.server 3000
+
+# 2. Dengan Node.js (jika ada)
+npx http-server -p 3000
+
+# 3. Dengan VS Code Live Server
+#    Buka folder frontend di VS Code, klik kanan index.html -> "Open with Live Server"
+```
+
+## **Akses Aplikasi**
+
+1. **Buka Browser**
+
+2. **Kunjungi: http://localhost:3000**
+
+3. **Login dengan:**
+   - Username: admin
+   - Password: admin123
+
+4. **Selamat Menggunakan!**
